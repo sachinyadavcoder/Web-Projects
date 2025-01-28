@@ -1,0 +1,1 @@
+this is a beginner project which covers some basic concepts of the javascript and its methods like setTimeout(),etc
