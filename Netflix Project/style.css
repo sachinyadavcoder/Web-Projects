@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+background-image:url("asset/images/netflix-bg.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: max(100vw,1700px);
+height: 100vh;
+z-index:-2;
+position: relative;
+top: 0;
+}
+.main .box{
+opacity: 0.54;
+height: 100vh;
+width: 100%;
+background-color: black;
+z-index: -1;
+position: absolute;
+top:0;
+right: 0;
+
+}
+nav{
+    width: 80vw;
+    height: 12vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav>div{
+    display: flex;
+    width: 200px;
+    gap: 15px;
+    height: 35px;
+}
+nav div>:nth-child(1){
+    display: flex;
+    background-color: transparent;
+    background-color: black;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid gray;
+}
+nav div>:nth-child(2){
+    background-color: rgb(229, 9, 20) ;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 80px;
+   font-size:14px;
+   font-weight: 700;
+}
+.hero{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Martel Sans", serif;
+}
+.hero>:nth-child(1){
+font-weight: 900;
+font-size: 3.5rem;
+/* width: 600px; */
+text-align: center;
+letter-spacing: -3px;
+line-height: 73px;
+display: flex;
+flex-wrap: wrap;
+}
+.hero>:nth-child(2){
+font-weight: 900;
+font-size: 3.5rem;
+/* width: 600px; */
+text-align: center;
+letter-spacing: -3px;
+line-height: 73px;
+display: flex;
+flex-wrap: wrap;
+}
+.hero>:nth-child(3){
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+}
+.hero>:nth-child(4){
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.hero input{
+    height: 8vh;
+}
+.hero div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+}
+.hero div >:nth-child(1){
+    width: 350px;
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 20px;
+    background-color: rgb(21, 20, 20);
+    opacity: 0.77;
+    border-style: none;
+    border: 1px solid gray;
+    /* display: inline-block; */
+    /* margin-right: 25px; */
+    border-radius: 5px;
+}
+.hero div >:nth-child(2){
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-style: none;
+    width: 200px;
+    height: 8vh;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.seperatline{
+    /* background: linear-gradient(to right, #2645e0, #feb47b); Horizontal gradient */
+    background: linear-gradient(to bottom, #1163f1, #0c0c0c); /* Vertical gradient */
+    height: 35px;
+}
+.seperatline>:nth-child(1){
+    background-color: rgb(229, 9, 20);
+    height: 5px;
+}
+.cards{
+    height: 1000px;
+    
+}
