@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" fill="white" viewBox="0 0 128 128" id="dragable">
+  <circle cx="82" cy="30" r="4" fill="#fff" stroke="#fff" stroke-width="7"></circle>
+  <circle cx="82" cy="64" r="4" fill="#fff" stroke="#fff" stroke-width="7"></circle>
+  <circle cx="82" cy="98" r="4" fill="#fff" stroke="#fff" stroke-width="7"></circle>
+  <circle cx="46" cy="30" r="4" fill="#fff" stroke="#fff" stroke-width="7"></circle>
+  <circle cx="46" cy="64" r="4" fill="#fff" stroke="#fff" stroke-width="7"></circle>
+  <circle cx="46" cy="98" r="4" fill="#fff" stroke="#fff" stroke-width="7"></circle>
+</svg>
