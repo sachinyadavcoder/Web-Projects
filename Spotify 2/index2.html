@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 0;
+  padding: 8px;
+  opacity: 0;
+  transition: width 0.3s ease, opacity 0.3s ease;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.search-container.active .search-input {
+  width: 150px;
+  opacity: 1;
+}
+
+    </style>
+</head>
+<body>
+    <div class="search-container">
+  <input type="text" class="search-input" placeholder="Search..." />
+  <button class="search-btn">
+    🔍
+  </button>
+</div>
+
+<script>
+    const searchContainer = document.querySelector(".search-container");
+const searchBtn = document.querySelector(".search-btn");
+
+searchBtn.addEventListener("click", () => {
+  searchContainer.classList.toggle("active");
+});
+
+</script>
+</body>
+</html>
