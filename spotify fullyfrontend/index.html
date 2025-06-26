@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left bg-black">
+            <img class="close" src="./assests/icons8-close.svg" alt="close">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo invert"><img src="./assests/logo.svg" alt="logo"></div>
+                <ul>
+                    <li><img class=" homebtn     invert" src="./assests/home.svg" alt="Home">Home</li>
+                    <li><img class="search invert" src="./assests/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading align-center">
+                    <img class="invert" src="./assests/yourlibrary.svg" alt="Library">
+                    <h3>
+                        Your Library
+                    </h3>
+                </div>
+
+                <div class="songList">
+                    <ul>
+                        <!-- <li>
+                            <img class="invert" src="assests/song.svg" alt="song">
+                            <div class="info">
+                                <div class="songName">Song Name</div>
+                                <div class="artist">Artist</div>
+                            </div>
+                            <div class="songPlay"> <div class="playnow">Play Now</div>
+                            <img class="invert" src="./assests/playbar.svg" alt="playbar">
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+<div class="playnow"></div>
+                <div class="footer">
+                    <div><a href="www.google.com"><span>Legal</span></a></div>
+                    <div><a href="www.google.com"><span>Privacy Center</span></a></div>
+                    <div><a href="www.google.com"><span>Privacy Policy</span></a></div>
+                    <div><a href="www.google.com"><span>Cookies</span></a></div>
+                    <div><a href="www.google.com"><span>About Ads</span></a></div>
+                    <div><a href="www.google.com"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right rounded bg-grey">
+            <div class="header">
+                <div class="nav">
+                    <img class="hamburger" src="./assests/icons8-hamburger.svg" alt="options">
+                    <img src="./assests/leftarrow.svg" alt="undo">
+                    <img src="./assests/rightarrow.svg" alt="redo">
+                </div>
+                <div class="buttons flex">
+                    <button>Sign up</button>
+                    <button>Log in</button>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <h2>Spotify Playlists</h2>
+                <div class="cardContainer">
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="songtime ">
+                        00:00/03:52
+                    </div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="songinfo">
+                      Girls Like You_Maroon 5   .mp3";
+                    </div>
+                    <div class="songbuttons">
+                        <img class="invert" id="previous" src="./assests/previous.png" alt="previous">
+                        <img class="invert" id="play"  src="./assests/playbar.svg" alt="pause/play">
+                        <img class="invert" id="next" src="./assests/forward.png" alt="next">
+                    </div>
+                    
+                    <div class="volume invert">
+                        <img id="volbutton"  src="./assests/volume.png" alt=" volume">
+                            <input class="range fill" type="range">
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <script src="app.js"></script> -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
